@@ -34,7 +34,7 @@ import DetailAward from "../pages/awards/DetailAward";
 import SubWrap from "../pages/awards/subwrap";
 import Header from "./layout/Header";
 import ContainBooking from "../pages/containBooking";
-
+import Statistics from "../pages/statistics";
 const MyApp = () => {
   return (
     <RecoilRoot>
@@ -171,6 +171,13 @@ const MyApp = () => {
                   <Layout
                     viewScreen={<ContainBooking></ContainBooking>}
                   ></Layout>
+                }
+              ></Route>
+
+              <Route
+                path="/statistic"
+                element={
+                  <Layout viewScreen={<Statistics></Statistics>}></Layout>
                 }
               ></Route>
             </AnimationRoutes>

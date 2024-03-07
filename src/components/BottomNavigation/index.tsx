@@ -49,6 +49,10 @@ const BottomNavigationPage: React.FunctionComponent = (props) => {
       case "home":
         navigate("/homeDemo", { animate: false });
         break;
+
+      case "statistic":
+        navigate("/statistic", { animate: false });
+        break;
       case "survey":
         break;
       case "event":
@@ -249,6 +253,14 @@ const BottomNavigationPage: React.FunctionComponent = (props) => {
           icon={<Icon icon="zi-poll" />}
           activeIcon={<Icon icon="zi-poll-solid" />}
         /> */}
+
+        <BottomNavigation.Item
+          key="statistic"
+          label="Thống kê"
+          icon={<Icon icon="zi-more-grid" />}
+          activeIcon={<Icon icon="zi-more-grid-solid" />}
+        />
+
         <BottomNavigation.Item
           key="me"
           label="Cá nhân"
