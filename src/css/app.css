@@ -1,0 +1,49 @@
+.page {
+  /* padding: 16px 16px 54px 16px; */
+  padding: 60px 4px 0px 4px;
+  width: "100%";
+  overflow: "visible";
+}
+
+.zaui-page {
+  max-height: 98vh !important;
+  min-height: auto;
+}
+
+.zaui-routes .zaui-routes-item {
+  height: 100vh !important;
+}
+
+.zaui-routes {
+  height: 94vh !important;
+}
+
+.section-container {
+  background: #ffffff;
+  height: 100vh;
+  margin: 0;
+  padding-top: 60px;
+  overflow: hidden;
+}
+
+.divCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zaui-bottom-navigation-item-active {
+  color: #f41616 !important;
+}
+.zaui-bottom-navigation {
+  width: 100%;
+  height: auto;
+  border-top: 3px solid #1a1919bb;
+}
+
+.header {
+  height: 60px;
+  position: fixed;
+  width: 100vw;
+  z-index: 6000;
+}

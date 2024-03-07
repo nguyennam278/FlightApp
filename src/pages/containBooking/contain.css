@@ -1,0 +1,46 @@
+.containBooing {
+  padding: 10px;
+}
+.containBooing_feedback {
+  margin-top: 20px;
+  padding: 10px;
+  height: 150px;
+  background-color: red;
+
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWuFVecd01D5IKyongdWpvYCwp06XsxbMe1w&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.containBooing_order {
+  padding: 10px 20px;
+  height: 150px;
+
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3e0VOUBjwf5iRmNaIX5ZCguw2QG-MGg0EAm0hbnnLVQ&s");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.containBooing {
+  padding: 10px;
+}
+.table_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #565656;
+}
+
+.select {
+  width: 100%;
+  height: 30px;
+}
+.test_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input_flight {
+  height: 30px;
+  width: 30vw;
+}

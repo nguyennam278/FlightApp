@@ -1,0 +1,37 @@
+.title-survey {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+
+.survey-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 10px;
+  gap: 10px;
+}
+.survey-item {
+  text-align: center;
+  line-height: 1.4;
+  padding: 18px;
+  margin: 20px 5px;
+  font-size: 20px;
+  width: 150px;
+  background-color: #ddd;
+  font-weight: 600;
+  border-radius: 16px;
+}
+.input_radio {
+  width: 20px;
+  height: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}

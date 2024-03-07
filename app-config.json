@@ -1,0 +1,27 @@
+{
+  "app": {
+    "title": "INCOM DEMO",
+    "headerColor": "#f60404",
+    "textColor": "white",
+    "statusBarColor": "#d41111",
+    "leftButton": "back",
+    "actionBarHidden": true,
+    "hideAndroidBottomNavigationBar": true,
+    "hideIOSSafeAreaBottom": false,
+    "selfControlLoading": false,
+    "statusBar": "normal",
+    "textAlign": "center"
+  },
+  "debug": false,
+  "listCSS": [],
+  "listSyncJS": [],
+  "listAsyncJS": [],
+  "pages": [
+    "/user",
+    "/form",
+    "/dynamic-route",
+    "/about",
+    "/404"
+  ],
+  "template": {}
+}

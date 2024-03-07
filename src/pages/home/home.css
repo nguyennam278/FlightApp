@@ -1,0 +1,26 @@
+.home-booking {
+  height: 100%;
+
+  overflow: hidden;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp4pXCmJAlOIqL0NUsQWRzKC-hmVMmDLNscQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ticket {
+  padding-top: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.needFlight {
+  margin-top: 3%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}

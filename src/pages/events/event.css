@@ -1,0 +1,177 @@
+.event-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.title-event {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+.event-item1 {
+  padding: 7px;
+}
+.event-item2 {
+  border-radius: 10px;
+  margin: auto;
+}
+.speaker-wrapper {
+  width: 95vw;
+  height: 220px;
+
+  display: grid;
+  overflow-x: auto;
+  gap: 10px;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 5px;
+}
+.speaker-wrapper::-webkit-scrollbar {
+  width: 0;
+}
+.speaker-wrapper .speaker-item {
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  margin-left: 10px;
+}
+.speaker-item img {
+  width: 110px;
+  height: 110px;
+
+  padding: 4px;
+}
+.seminar-container {
+  /* background-color: #2b2351; */
+}
+.seminar-content {
+  width: "98vw";
+}
+.label {
+  font-weight: bold;
+  font-size: 17px;
+}
+.label1 {
+  font-weight: bold;
+  font-size: 26px;
+}
+.name-speakerAwrard {
+  margin-top: 3%;
+  font-weight: 700;
+  font-size: 18px;
+}
+.title {
+  color: black;
+}
+.img-event1 {
+  width: 100%;
+  height: 150px;
+}
+.test {
+  display: flex;
+}
+.award-list {
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+.award {
+  margin-bottom: 15px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+.award img {
+  width: 120px;
+  height: 120px;
+
+  padding: 4px;
+}
+
+#showSpeaker img {
+  width: 70vw;
+  object-fit: contain;
+  border-radius: 20px;
+}
+.event-detail img {
+  width: 50vw;
+  object-fit: contain;
+}
+.contact-list {
+  margin-top: 10px;
+}
+.tab1 {
+  margin-top: 20px;
+}
+
+.timer {
+  margin: 0 auto;
+  padding: 0 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  width: 250px;
+  height: 64px;
+  text-align: center;
+}
+
+#occur {
+  padding: 10px 0;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.count {
+  font-weight: bold;
+  font-size: 28px;
+  font-weight: 750;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-bottom: 5px; */
+}
+.b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.a {
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+
+.title-first {
+  font-size: 11px;
+  margin: 0;
+  font-weight: bold;
+  padding: 0;
+}
+.btnLast {
+  width: 48%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+.zaui-tabs-tabbar {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.zaui-tabs-tabbar-item {
+  opacity: 0.5;
+  font-size: 18px;
+}
+.zaui-tabs-tabbar-item-active {
+  opacity: 1;
+}
+#contact-list-tab-tab2 {
+  margin-top: 20px;
+  overflow-y: scroll;
+}
+#contact-list-tab-tab1 {
+  margin-top: 20px;
+  overflow-y: scroll;
+}
